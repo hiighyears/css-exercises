@@ -15,14 +15,42 @@ body {
   justify-content: center;
 }
 
+.headercontainer {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  justify-content: space-between;
+
+
+}
+
+.cent {display: flex;
+  padding: 0px 60px;
+  gap: 8px;
+  width: 450px;
+  /* flex: 1; */
+  /* flex-wrap: wrap; */
+  /* text-align: center; */
+  /* justify-content: center; */
+}
+
 .modal {
+  padding: 16px;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+.header {
+  text-align: start ;
+  font-size: 22px;
+  margin-right: auto;
+  /* margin-: auto; */
+}
+
 .icon {
+  margin:8px;
+  margin-top: auto;
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -55,14 +83,20 @@ button {
   padding: 8px 16px;
   border-radius: 8px;
 }
+.text {
+  padding-top: 8px;
+}
 
 button.continue {
+  /* padding-top: 8px; */
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
 }
 
 button.cancel {
+  /* padding-top: 8px; */
+
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
